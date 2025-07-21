@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plist util parsePlist parses the content of the info plist file 1`] = `
+[
+  {
+    "key": [
+      {
+        "#text": "CFBundleDevelopmentRegion",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "$(DEVELOPMENT_LANGUAGE)",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleDisplayName",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "sample-app",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleExecutable",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "$(EXECUTABLE_NAME)",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleIdentifier",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "$(PRODUCT_BUNDLE_IDENTIFIER)",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleInfoDictionaryVersion",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": 6,
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleName",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "$(PRODUCT_NAME)",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundlePackageType",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "$(PRODUCT_BUNDLE_PACKAGE_TYPE)",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleShortVersionString",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "1.0.4",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleSignature",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "????",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleURLTypes",
+      },
+    ],
+  },
+  {
+    "array": [
+      {
+        "dict": [
+          {
+            "key": [
+              {
+                "#text": "CFBundleURLSchemes",
+              },
+            ],
+          },
+          {
+            "array": [
+              {
+                "string": [
+                  {
+                    "#text": "myapp",
+                  },
+                ],
+              },
+              {
+                "string": [
+                  {
+                    "#text": "com.sample.app",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "dict": [
+          {
+            "key": [
+              {
+                "#text": "CFBundleURLSchemes",
+              },
+            ],
+          },
+          {
+            "array": [
+              {
+                "string": [
+                  {
+                    "#text": "exp+sample-app",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "CFBundleVersion",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": 12,
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "LSRequiresIPhoneOS",
+      },
+    ],
+  },
+  {
+    "true": [],
+  },
+  {
+    "key": [
+      {
+        "#text": "NSAppTransportSecurity",
+      },
+    ],
+  },
+  {
+    "dict": [
+      {
+        "key": [
+          {
+            "#text": "NSAllowsArbitraryLoads",
+          },
+        ],
+      },
+      {
+        "true": [],
+      },
+      {
+        "key": [
+          {
+            "#text": "NSExceptionDomains",
+          },
+        ],
+      },
+      {
+        "dict": [
+          {
+            "key": [
+              {
+                "#text": "localhost",
+              },
+            ],
+          },
+          {
+            "dict": [
+              {
+                "key": [
+                  {
+                    "#text": "NSExceptionAllowsInsecureHTTPLoads",
+                  },
+                ],
+              },
+              {
+                "true": [],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UILaunchStoryboardName",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "SplashScreen",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UIRequiredDeviceCapabilities",
+      },
+    ],
+  },
+  {
+    "array": [
+      {
+        "string": [
+          {
+            "#text": "armv7",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UIRequiresFullScreen",
+      },
+    ],
+  },
+  {
+    "false": [],
+  },
+  {
+    "key": [
+      {
+        "#text": "UIStatusBarStyle",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "UIStatusBarStyleDefault",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UISupportedInterfaceOrientations",
+      },
+    ],
+  },
+  {
+    "array": [
+      {
+        "string": [
+          {
+            "#text": "UIInterfaceOrientationPortrait",
+          },
+        ],
+      },
+      {
+        "string": [
+          {
+            "#text": "UIInterfaceOrientationPortraitUpsideDown",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UISupportedInterfaceOrientations~ipad",
+      },
+    ],
+  },
+  {
+    "array": [
+      {
+        "string": [
+          {
+            "#text": "UIInterfaceOrientationPortrait",
+          },
+        ],
+      },
+      {
+        "string": [
+          {
+            "#text": "UIInterfaceOrientationPortraitUpsideDown",
+          },
+        ],
+      },
+      {
+        "string": [
+          {
+            "#text": "UIInterfaceOrientationLandscapeLeft",
+          },
+        ],
+      },
+      {
+        "string": [
+          {
+            "#text": "UIInterfaceOrientationLandscapeRight",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UIUserInterfaceStyle",
+      },
+    ],
+  },
+  {
+    "string": [
+      {
+        "#text": "Automatic",
+      },
+    ],
+  },
+  {
+    "key": [
+      {
+        "#text": "UIViewControllerBasedStatusBarAppearance",
+      },
+    ],
+  },
+  {
+    "false": [],
+  },
+]
+`;
